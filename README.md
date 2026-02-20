@@ -13,6 +13,7 @@ Insights and recommendations are provided on the following key areas:
 * **Logistics & Payload Optimization:** Segmenting inventory by weight for fleet allocation.
 
 The SQL queries used to clean, transform the raw inventory data, and answer critical business questions can be found here: [SQL/Data_Cleaning_queries](https://github.com/vivek1dv/zepto_inventory_health_risk_analysis/blob/main/zepto_inventory_sql.sql).
+
 An interactive Power BI dashboard used to report and explore sales trends can be found here: [Power_bi_dashboard](https://github.com/vivek1dv/zepto_inventory_health_risk_analysis/blob/main/zepto_inventory_analysis_bi.pbix)
 
 
@@ -23,6 +24,7 @@ The primary inventory dataset consists of **3,727 high-frequency transaction rec
 
 * **zepto_1 (Processed Table):** The optimized SQL table featuring SKU IDs, category taxonomies, MRP, and stock status.
 * **Attributes:** Key features include **Customer Demographics**, **Purchase Architecture** (Item details), and **Behavioral Metrics** (Discount application).
+
 ![Alt text](https://github.com/vivek1dv/zepto_inventory_health_risk_analysis/blob/main/columns%20zepto.png)
 
 ---
@@ -40,12 +42,14 @@ The audit identified critical operational inefficiencies: a significant portion 
 * **OOS Mix:** The analysis revealed a total of **453 SKUs** that are currently out of stock, representing a significant fill-rate gap.
 * **Financial Audit:** The total inventory value sits at **₹2.49M**, while total potential revenue is **₹2.24M**; the variance is attributed to applied discount strategies.
 * **Inventory Space:** "Cooking Essentials," "Munchies," and "Chocolates & Candy" are the dominant categories occupying warehouse storage space.
+  
 ![Alt text](https://github.com/vivek1dv/zepto_inventory_health_risk_analysis/blob/main/inventory%20health%20Dashboard%20zepto.png)
 
 ### 💸 Revenue Opportunity & Pricing
 * **High-Ticket Leakage:** Items with an **MRP > ₹300** that are currently Out-of-Stock represent immediate procurement failure points and lost revenue.
 * **Velocity Stagnation:** Premium items (**MRP > ₹500**) with minimal discounts (**<10%**) are moving significantly slower than the organizational average.
 * **Markdown Depth:** Isolated the **Top 10 products by Markdown Depth** to identify the "Hero Products" that drive app traffic and customer acquisition.
+
 ![Alt text](https://github.com/vivek1dv/zepto_inventory_health_risk_analysis/blob/main/Revenue%20Opportunity%20zepto.png)
 
 ### 🚛 Logistics & Payload Tiering
@@ -53,6 +57,7 @@ The audit identified critical operational inefficiencies: a significant portion 
 * **Fleet Allocation:** Payload data supports the dynamic allocation of the delivery fleet between **Bikes** and **Electric Three-wheelers**.
 * **Floor-Loading Planning:** Cumulative weight calculations per category assist in Dark Store warehouse storage and shelf-loading planning.
 * **Unit-Value Engineering:** Analyzed the price-per-gram for bulk products to identify cost-effective options for consumers.
+
 ![Alt text](https://github.com/vivek1dv/zepto_inventory_health_risk_analysis/blob/main/Logistics%20%26%20Payload%20Tiering%20zepto.png)
 ---
 

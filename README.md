@@ -12,7 +12,7 @@ Insights and recommendations are provided on the following key areas:
 * **Pricing & Markdown Efficiency:** Evaluating price sensitivity and markdown depth.
 * **Logistics & Payload Optimization:** Segmenting inventory by weight for fleet allocation.
 
-The SQL queries used to clean, transform the raw inventory data, and answer critical business questions can be found here: [SQL/Data_Cleaning_queries](https://github.com/vivek1dv/zepto_inventory_health_risk_analysis/blob/main/zepto_inventory_sql.sql).
+The SQL queries used to clean, transform the raw inventory data, and answer critical business questions can be found here: [SQL/Data_Cleaning_queries](https://github.com/vivek1dv/zepto_inventory_health_risk_analysis/blob/main/zepto_inventory_sql.sql)
 
 An interactive Power BI dashboard used to report and explore sales trends can be found here: [Power_bi_dashboard](https://github.com/vivek1dv/zepto_inventory_health_risk_analysis/blob/main/zepto_inventory_analysis_bi.pbix)
 
